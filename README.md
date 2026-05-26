@@ -67,7 +67,7 @@ python main.py
 
 3. The script will process the video frame-by-frame and generate the visualizations, CSV logs, and the final annotated `.mp4` file in the same directory.
 
-## 📊 Results & Visualization
+## Results & Visualization
 
 ### Skeletal Tracking & Smoothing
 The pipeline aggressively smooths the raw coordinate data using a Savitzky-Golay filter to prevent classification flickering. A dual-threshold hysteresis state machine (110° for Squatting, 150° for Standing) is utilized to govern state transitions.
@@ -97,10 +97,9 @@ Evaluated against manually labeled ground truth data for a 1223-frame sequence, 
 
 * [LinkedIn](https://www.linkedin.com/in/muhammad-basit-memon-a1a24921a/)
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
 ```
 
-```
